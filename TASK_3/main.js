@@ -30,6 +30,8 @@ fetch(url)
           content.appendChild(pokemonAbilities);
           pokemonAbilities.innerHTML = "Abilities: " + pokemonDetails.abilities.map(abilityInfo => abilityInfo.ability.name).join(", ");
 
+          
+
         });
     });
   });
